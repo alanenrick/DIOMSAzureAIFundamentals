@@ -1,0 +1,11 @@
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html
+
+https://web.dio.me/topics/vamos-resolver-os-desafios-juntos?back=%2Ftrack%2Fmicrosoft-azure-ai-fundamentals&page=1&order=oldest
+
+https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP01%20-%20Trabalhando%20com%20Machine%20Learning#vamos-criar-um-aprendizado-de-maquina-para-a-previs%C3%A3o-de-aluguel-de-bicicletas
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html
+
+https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb
