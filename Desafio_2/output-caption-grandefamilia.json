@@ -1,0 +1,14 @@
+{
+    "apim-request-id": "1cace36d-3922-4761-b65e-cfdf394cce9f",
+    "content-length": "164",
+    "content-type": "application/json; charset=utf-8",
+    "modelVersion": "2023-10-01",
+    "captionResult": {
+      "text": "a group of people posing for a photo",
+      "confidence": 0.9108614921569824
+    },
+    "metadata": {
+      "width": 1200,
+      "height": 800
+    }
+  }
