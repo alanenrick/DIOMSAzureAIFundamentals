@@ -29,12 +29,12 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML</font></
 
 ### <li>Clicar em "**create a resource**".</li>
 
-<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/01.png" width= "800">
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/01.png" width= "900">
 
 
 ### <li>CLicar em "**AI + Machine Learning**", em "**Azure AI Services**" clicar em "**create**".</li>
 
-<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/02.png" width= "800">
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/02.png" width= "900">
 
 
 ### <li>Preencher lacunas e clicar em "**Review + create**" e depois em "**create**".</li>
@@ -117,14 +117,16 @@ ubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/09.
 </ol>
 
 
-### <li>Após testar clicar em "**Browse for a file**" selecionar uma imagem de sua preferência.</li>
+### <li>Após testar, clicar em "**Browse for a file**" selecionar uma imagem de sua preferência.</li>
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/14.png" width= "800">
 
 #### - A imagem selecionada foi da "[Grande Família][4]".  
-<font size= "1">_Observa-se que foram detectadas 12 faces, incluindo a que está no porta retrato._</font>
+
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/output/output-face-grandefamilia.png" width= "800">
+
+*_Observa-se que foram detectadas 12 faces, incluindo a que está no porta retrato._
 
 </ol>
 
@@ -141,12 +143,14 @@ ubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/09.
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/16.png" width= "800">
 
 
-### <li>Após testar clicar em "**Browse for a file**" selecionar uma imagem de sua preferência.</li>
+### <li>Após testar, clicar em "**Browse for a file**" selecionar uma imagem de sua preferência.</li>
 
-#### A imagem selecionada foi com o texto de "[João 8:32][5]"
-<font size= "1">_Observa-se que foram detectado todos os textos de forma correta, exceto o "@" que foi detectado como "O"._</font>
+#### - A imagem selecionada foi com o texto de "[João 8:32][5]"
+
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/output/output-text-joao832.png" width= "800">
+
+*_Observa-se que foram detectado todos os textos de forma correta, exceto o "@" que foi detectado como "O"._
 
 </ol>
 
@@ -155,22 +159,30 @@ ubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/09.
 
 <ol>
 
+### <li>Na tela principal clicar em "**Image nalisys**" e depois em "**Add captions to image**".</li>
+
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/17.png" width= "800">
 
+### <li>Selecionar uma imagem padrão e testar.</li>
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/18.png" width= "800">
 
+### <li>Após testar, clicar em "**Browse for a file**" selecionar uma imagem de sua preferência.</li>
+
+#### - A imagem selecionada foi da "[Grande Família][4]".  
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/output/output-caption-grandefamilia.png" width= "800">
 
+*"Observa-se que foi criada uma legenda para a imagem "*A group of people posing for a photo(Um grupo de pessoas posando para a foto)*".
 </ol>
 
 </ol>
+
 
 # <font color= blue>Links utéis e Fontes de pesquisa</font>
 
 -   [Portal Azure][], acessado em 06/03/2024 às 16:10.
--   [Vision Studio][], acessado em 06/03/2024 às 16:20.
+-   [Portal Vision Studio][], acessado em 06/03/2024 às 16:20.
 -   <sup>**1**</sup> Passo a passo ["Detect faces in the Vision Studio"][1], acessado em 06/03/2024 às 16:15.
 -   <sup>**2**</sup> Passo a passo ["Extract text from images in the Vision Studio"][2], acessado em 06/03/2024 às 16:40.
 -   <sup>**3**</sup> Passo a passo ["Generate captions for an image"][3], acessado em 06/03/2024 às 16:50.
