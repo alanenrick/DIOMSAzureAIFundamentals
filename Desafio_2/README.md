@@ -141,6 +141,11 @@ ubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/09.
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/16.png" width= "800">
 
 
+### <li>Após testar clicar em "**Browse for a file**" selecionar uma imagem de sua preferência.</li>
+
+#### A imagem selecionada foi com o texto de "[João 8:32][5]"
+<font size= "1">_Observa-se que foram detectado todos os textos de forma correta, exceto o "@" que foi detectado como "O"._</font>
+
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/output/output-text-joao832.png" width= "800">
 
 </ol>
