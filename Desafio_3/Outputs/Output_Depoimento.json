@@ -1,0 +1,44 @@
+{
+    "documents": [
+        {
+            "id": "id__3253",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 1,
+                "neutral": 0,
+                "negative": 0
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 178,
+                    "text": "Deixando aqui registrado minha participação nesses quatro dias de lives com mulheres incríveis sobre conhecimentos técnicos, mercado de tecnologia e desenvolvimento de carreira! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 178,
+                    "length": 61,
+                    "text": "Só agradecer à DIO e à Avanade Brasil 🧡 #DioforWomenbyAvanade",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
