@@ -37,10 +37,90 @@ Análise de Sentimentos com Language Studio no Azure AI</font></h1>
 
 ### <li>Clicar em "**create a resource**".</li>
 
+
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_2/Imagens/01.png" width= "900">
 
 
-### <li>Clicar em</li>
+### <li>Clicar em "**AI + Machine Learning**", em "**Language service**" clicar em "**Create**".</li>
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/01.png" width= "900">
+
+
+### <li>Clicar em "**Continue to create your resource**".</li>
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/02.png" width= "900">
+
+
+### <li>Preencher lacunas conforme abaixo e depois clicar em "**Review + create**".</li>
+
+*   **Subscription:** Selecionar sua subscrição do Azure.
+
+*   **Resource group:** Selecionar um recurso existente ou criar um novo.
+
+*   **Region:** East US.
+
+*   **Name:** Escolher um nome único.
+
+*   **Pricing tier:** "Free F0" ou "S", se  "Free F0", não estiver disponível.
+
+*   **By checking this box I acknowledge that I have read and understood all the terms below:** Selecionar.
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/03.png" width= "900">
+
+
+### <li>Clicar em "**Create**".</li>
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/04.png" width= "900">
+
+
+### <li>Aguardar "**Your deployment is complete**" e depois abrir o "[**Portal Language Studio**][3]".</li>
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/05.png" width= "900">
+
+
+### <li>Ao abrir o portal automaticamente aparecerá o formulário. Preencher conforme abaixo e clicar em "**Done**"</li>
+
+*   **Azure directory:** Escolher diretório padrão, ou um de sua preferência.
+
+*   **Azure subscription:** Selecionar sua subscrição do Azure.
+
+*   **Resource type:** "Language".
+
+*   **Resource name:** Selecionar o recurso de linguagem criado anteriormente.(Se não aparecer, aguardar de 05 a 10 min e tentar novamente.).
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/06.png" width= "900">
+
+
+### <li>Ir em "**Classify text**" e selecionar "**Analyze sentiment and mine opinions**".</li>
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Imagens/07.png" width= "900">
+
+
+### <li>Usar um texto com opinião de sua preferência.</li>
+
+#### *   O texto selecionado foi uma opinião da [Mariana Seidel][6] na plataforma da [DIO](https://www.dio.me/). Transcrito no arquivo [.txt](https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Inputs/Input_Depoimento.txt).
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Inputs/Input_Depoimento.png" width= "900">
+
+
+#### *   Selecionar idioma do texto, colar o texto, marcar a caixa "**I acknowledge...**" e clicar em "**Run**".
+
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Outputs/Output_Depoimento-01.png" width= "900">
+
+
+#### *  Em "**Result**" aparecerá o resultado da análise.
+
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_3/Outputs/Output_Depoimento-02.png" width= "900">
+
 
 </ol>
 
