@@ -1,15 +1,21 @@
 <h1><a href="https://x.gd/77Uz6"><img src="https://x.gd/I9Qlv" align= "left" width= "160" alt="Imagem do desafio: Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados"></a>
-<font color= "Gray" size= "4"> 
-<h1>Desafio de projeto 4</font></font>
+<h1>Desafio de projeto 4
 <font color= red>
-<h1><font size= "6">
-Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados</font></h1>
+<h1>
+Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados</h1>
 </font>
+</font>
+</h1>
 
-<font color= "yellow" size= "2">Objetivo </font>
+<ul>
 
-<font size= 2 color= gray>
+# <li>Apresentação </li>
 
+<p>Este projeto tem como objetivo mostrar como usar o recurso do "**Azure AI Search**" para indexação e consulta de dados.</p> 
+<p>Após concluir o projeto seguindo os passos pode se ter algumas ideias de aplicação para este recurso.</p>
+<p>Uma delas seria para uso em uma rede de franquias, na qual pode se obter rapidamente através de uma breve busca varios dados das franquias de uma determinada localidade, saber quais franquias são melhores e piores avaliadas e o motivo. Entre outras aplicações. Ou seja o principal uso desse recurso seria por empresas independente do tamanho da mesma.</p>
+
+# <li>Objetivo</li>
 
 <ol>
 
@@ -21,8 +27,7 @@ Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dado
 
 </ol>
 
-
-# <font color= blue> Passo a passo</font>
+# <li>Passo a passo</li>
 
 *Todos os passos e parâmetros a seguir foram baseados nas aulas do projeto e pelo link<sup>**[1][]**</sup> indicado.*
 
@@ -48,12 +53,12 @@ Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dado
 ### <li>Preencher lacunas conforme abaixo e depois clicar em "**Review + create**".
 
 <ul>
-      <li><strong>Subscription</strong>: <em>Sua inscrição do Azure</em>.</li>
-      <li><strong>Resource group</strong>: <em>Selecionar um existente ou criar um novo</em>.</li>
-      <li><strong>Service name</strong>: <em>Criar um nome único</em>.</li>
-      <li><strong>Location</strong>: <em>Escolher uma região disponível</em>.</li>
-      <li><strong>Pricing tier</strong>: Basic</li>
-    </ul>
+<li><strong>Subscription</strong>: <em>Sua inscrição do Azure</em>.</li>
+<li><strong>Resource group</strong>: <em>Selecionar um existente ou criar um novo</em>.</li>
+<li><strong>Service name</strong>: <em>Criar um nome único</em>.</li>
+<li><strong>Location</strong>: <em>Escolher uma região disponível</em>.</li>
+<li><strong>Pricing tier</strong>: Basic</li>
+</ul>
 
 ###
 
@@ -68,14 +73,14 @@ Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dado
 
 ### <li>Preencher lacunas conforme abaixo e clicar em "**Review + Create**".</li>
 
- <ul>
-      <li><strong>Subscription</strong>: <em>Sua inscrição do Azure</em>.</li>
-      <li><strong>Resource group</strong>: <em>O mesmo usado no "<strong>Azure AI Search</em>.</li>
-      <li><strong>Region</strong>: <em>The same location as your Azure AI Search resource</strong>"</em>.</li>
-      <li><strong>Name</strong>: <em>Criar um nome único</em>.</li>
-      <li><strong>Pricing tier</strong>: Standard S0</li>
-      <li><strong>By checking this box I acknowledge that I have read and understood all the terms below</strong>: Selecionar</li>
-    </ul>
+<ul>
+<li><strong>Subscription</strong>: <em>Sua inscrição do Azure</em>.</li>
+<li><strong>Resource group</strong>: <em>O mesmo usado no "<strong>Azure AI Search</em>.</li>
+<li><strong>Region</strong>: <em>The same location as your Azure AI Search resource</strong>"</em>.</li>
+<li><strong>Name</strong>: <em>Criar um nome único</em>.</li>
+<li><strong>Pricing tier</strong>: Standard S0</li>
+<li><strong>By checking this box I acknowledge that I have read and understood all the terms below</strong>: Selecionar</li>
+</ul>
 
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Imagens/05.png" width= "900">
@@ -90,14 +95,14 @@ Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dado
 
 ### <li>Preencher lacunas conforme abaixo e clicar em "**Review + create**"</li>
 
-  <ul>
-      <li><strong>Subscription</strong>: <em>Sua inscrição do Azure</em>.</li>
-      <li><strong>Resource group</strong>: <em>Usar o mesmo do "<strong>Azure AI Search</strong>"</em>.</li>
-      <li><strong>Region</strong>: <em>Usar o mesmo do "<strong>Azure AI Search</em>.</li>
-      <li><strong>Name</strong>: <em>Criar um nome único</em>.</li>
-      <li><strong>Pricing tier</strong>: Standard S0</li>
-      <li><strong>By checking this box I acknowledge that I have read and understood all the terms below</strong>: Selecionar</li>
-    </ul>
+<ul>
+<li><strong>Subscription</strong>: <em>Sua inscrição do Azure</em>.</li>
+<li><strong>Resource group</strong>: <em>Usar o mesmo do "<strong>Azure AI Search</strong>"</em>.</li>
+<li><strong>Region</strong>: <em>Usar o mesmo do "<strong>Azure AI Search</em>.</li>
+<li><strong>Name</strong>: <em>Criar um nome único</em>.</li>
+<li><strong>Pricing tier</strong>: Standard S0</li>
+<li><strong>By checking this box I acknowledge that I have read and understood all the terms below</strong>: Selecionar</li>
+</ul>
 
 ###
 
@@ -127,9 +132,9 @@ Mudar a configuração "**Allow Blob anonymous access**" para "**Enabled**" e se
 ### Preencher e clicar em "**Create**".
 
 <ul>
-      <li><strong>Name</strong>: search-coffee</li>
-      <li><strong>Public access level</strong>: Container (anonymous read access for containers and blobs)</li>
-      <li><strong>Advanced</strong>: <em>Sem mudanças</em>.</li>
+<li><strong>Name</strong>: search-coffee</li>
+<li><strong>Public access level</strong>: Container (anonymous read access for containers and blobs)</li>
+<li><strong>Advanced</strong>: <em>Sem mudanças</em>.</li>
 </ul>
 
 ###
@@ -154,17 +159,17 @@ Mudar a configuração "**Allow Blob anonymous access**" para "**Enabled**" e se
 
 ### <li>Na aba "**Connect to your data**", em "**Data Source**", selecionar "**Azure Blob Storage**". Peencher conforme abaixo:</li>
 
-   <ul>
-      <li><strong>Data Source</strong>: Azure Blob Storage</li>
-      <li><strong>Data source name</strong>: search-coffee</li>
-      <li><strong>Data to extract</strong>: Content and metadata</li>
-      <li><strong>Parsing mode</strong>: Default</li>
-      <li><strong>Connection string</strong>: *Select <strong>Choose an existing connection</strong>. Selecionar o "storage account" criado anteriormente.</li>
-      <li><strong>Managed identity authentication</strong>: None</li>
-      <li><strong>Container name</strong>: <em>this setting is auto-populated after you choose an existing connection</em>.</li>
-      <li><strong>Blob folder</strong>: <em>Deixar em branco</em>.</li>
-      <li><strong>Description</strong>: Reviews for Fourth Coffee shops.</li>
-    </ul>
+<ul>
+<li><strong>Data Source</strong>: Azure Blob Storage</li>
+<li><strong>Data source name</strong>: search-coffee</li>
+<li><strong>Data to extract</strong>: Content and metadata</li>
+<li><strong>Parsing mode</strong>: Default</li>
+<li><strong>Connection string</strong>: *Select <strong>Choose an existing connection</strong>. Selecionar o "storage account" criado anteriormente.</li>
+<li><strong>Managed identity authentication</strong>: None</li>
+<li><strong>Container name</strong>: <em>this setting is auto-populated after you choose an existing connection</em>.</li>
+<li><strong>Blob folder</strong>: <em>Deixar em branco</em>.</li>
+<li><strong>Description</strong>: Reviews for Fourth Coffee shops.</li>
+</ul>
 
 ### Clicar "**Next: Add cognitive skills (Optional)**".
 
@@ -295,11 +300,11 @@ Se aparecer o campo "<strong>Storage Account Connection String</strong>".
 }
 </code></pre>
 
-###  Retornou o resultado [.JSON]().
+###  Retornou o resultado [.JSON](https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Outputs/result-search-1.json).
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Imagens/29.png" width= "900">
 
-### <li>No "<strong>JSON query editor</strong>", copiar e colar:</li>
+### <li>Pesquisar pela localização "Chicago": No "<strong>JSON query editor</strong>", copiar e colar:</li>
 
 <pre><code>{
  "search": "locations:'Chicago'",
@@ -307,11 +312,11 @@ Se aparecer o campo "<strong>Storage Account Connection String</strong>".
 }
 </code></pre>
 
-###  Retornou o resultado [.JSON]().
+###  Retornou o resultado [.JSON](https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Outputs/result-search-2.json).
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Imagens/30.png" width= "900">
 
-### <li>No "<strong>JSON query editor</strong>", copiar e colar:</li>
+### <li>Pesquisar por "Sentimento": No "<strong>JSON query editor</strong>", copiar e colar:</li>
 
 <pre><code>{
  "search": "sentiment:'negative'",
@@ -319,23 +324,19 @@ Se aparecer o campo "<strong>Storage Account Connection String</strong>".
 }
 </code></pre>
 
-###  Retornou o resultado [.JSON]().
+###  Retornou o resultado [.JSON](https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Outputs/result-search-3.json).
 
 <img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Imagens/31.png" width= "900">
 
 
-
-
-
 </ol>
 
-
-# <font color= blue>Links utéis e Fontes de pesquisa</font>
+# <li>Links utéis e Fontes de pesquisa</li>
 
 -   [Portal Azure][2], acessado em 20/03/2024 às 19:15.
 -   <sup>**1**</sup> Passo a passo ["Explore an Azure AI Search index"][1], acessado em 20/03/2024 às 19:15.
  
-
+</ul>
 
 
 [1]: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
@@ -347,5 +348,3 @@ Se aparecer o campo "<strong>Storage Account Connection String</strong>".
 [4]: https://unicast.com.br/posts/criando-uma-conta-gratuita-no-azure/#:~:text=1.1%20Criando%20sua%20conta%20gratuita,cadastro%20ou%20criar%20uma%20nova.
 
 [5]: https://x.gd/77Uz6
-
-[6]: 

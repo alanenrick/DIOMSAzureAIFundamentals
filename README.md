@@ -36,6 +36,8 @@ Criar um [repositório no Github][7], registrar o passo a passo e resultados no 
 
 ### Desafio de projeto 4:
 
+##### O objetivo desse projeto é mostrar como usar recursos do Azure AI Search, como indexar e consultar dados. e dar insights de aplicação para essa ferramenta.
+Criar um [repositório no Github][8], registrar o passo a passo e resultados no "**README.md**" e salvar as "Inputs" e "Outputs" em pastas específicas.
 
 
 
@@ -48,3 +50,4 @@ Criar um [repositório no Github][7], registrar o passo a passo e resultados no 
 [5]: https://github.com/alanenrick/DIOMSAzureAIFundamentals/tree/main/Desafio_2
 [6]: https://web.dio.me/lab/analise-de-sentimentos-com-language-studio-no-azure-ai/learning/f6884c74-e7aa-4700-a84b-a3446e0b6d8d
 [7]: https://github.com/alanenrick/DIOMSAzureAIFundamentals/tree/main/Desafio_3
+[8]: https://github.com/alanenrick/DIOMSAzureAIFundamentals/tree/main/Desafio_4
