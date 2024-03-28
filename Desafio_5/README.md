@@ -40,7 +40,7 @@
 ### <li>Clicar em "**create a resource**".</li>
 
 
-<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_4/Imagens/01.png" width= "900">
+<img src= "https://raw.githubusercontent.com/alanenrick/DIOMSAzureAIFundamentals/main/Desafio_5/Minhas.Imagens/01.png" width= "900">
 
 
 </ol>
@@ -48,13 +48,14 @@
 # <li>Links utéis e Fontes de pesquisa</li>
 
 -   [Portal Azure][2], acessado em 28/03/2024 às 18:15.
--   <sup>**1**</sup> Passo a passo ["Explore an Azure AI Search index"][1], acessado em 28/03/2024 às 18:15.
+-   [Portal Vision Studio][7], acessado em 28/03/2024 às 18:20.
+-   <sup>**1**</sup> Passo a passo ["Read text in Vision Studio"][1], acessado em 28/03/2024 às 18:15.
 -   <sup>**2**</sup> Passo a passo ["Explore generative AI with Microsoft Copilot"][6], acessado em 28/03/2024 às 18:15.
 
 </ul>
 
 
-[1]: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
+[1]: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html
 
 [2]: https://portal.azure.com
 
@@ -65,3 +66,5 @@
 [5]: https://x.gd/GIELw
 
 [6]: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/12-generative-ai.html
+
+[7]: https://portal.vision.cognitive.azure.com/
